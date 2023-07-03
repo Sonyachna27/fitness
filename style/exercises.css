@@ -1,0 +1,115 @@
+.exercises_wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-bottom: 200px;
+}
+
+.exercises-title_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.exercises__title {
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 45px;
+  letter-spacing: 0.3px;
+}
+
+.exercises__title-link {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 1.5px;
+  z-index: 5;
+}
+
+.exercises-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 373px;
+  position: relative;
+}
+
+.exercises-block-img_wrap {
+  max-width: 373px;
+  width: 100%;
+  border-radius: 10px;
+  position: relative;
+}
+
+.exercises-block-img_wrap::after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  content: "";
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 80%, #000000 100%);
+}
+
+.exercises-block_img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.exercises-block_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  z-index: 5;
+}
+
+.exercises-text_wrap {
+  display: flex;
+  z-index: 1;
+  margin-top: -25px;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 20px;
+}
+
+.exercises-text_title {
+  position: relative;
+  display: flex;
+  margin-top: -50px;
+  gap: 15px;
+  z-index: 1;
+  flex-direction: column;
+}
+.exercises-text_title h2 {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 45px;
+  letter-spacing: 0.3px;
+}
+.exercises-text_title span {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 14px;
+  letter-spacing: 0.5px;
+}
+
+.exercise-time {
+  margin-top: 0;
+  width: 72px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-right: -5px;
+  background: #000000;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 95%;
+  padding: 10px;
+  /* identical to box height, or 95% */
+  letter-spacing: 1.36667px;
+}/*# sourceMappingURL=exercises.css.map */

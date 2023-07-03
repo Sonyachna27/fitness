@@ -1,0 +1,90 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #000;
+  color: #FFFFFF;
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  background: inherit;
+  color: inherit;
+  border: none;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 140px;
+}
+
+.logo {
+  display: flex;
+  max-width: 100px;
+}
+
+.logo_link {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+}
+
+nav {
+  display: flex;
+  max-width: 390px;
+  width: 100%;
+  align-items: center;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.nav_list {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+.nav_list-link {
+  width: -moz-fit-content;
+  width: fit-content;
+}/*# sourceMappingURL=header.css.map */

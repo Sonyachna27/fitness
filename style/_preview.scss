@@ -1,0 +1,120 @@
+@import "./rule.scss";
+.preview{
+    margin-bottom: 150px;
+}
+.info_block-ad{
+    width: 46px;
+    height: 26px;
+    display: flex;
+    background: $btn-color;
+    border-radius: 200px;
+    color: $text-color;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 18px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    letter-spacing: 1.5px;
+}
+.info_block{
+    display: flex;
+    background: $grey-color;
+    max-width: 329px;
+    width: 100%;
+    gap: 15px;
+    border-radius: 200px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 31px;
+}
+
+.info_block-title{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: $text-color;
+    opacity: 0.8;
+    padding: 9px 0px;
+    display: flex;
+}
+h1{
+    font-weight: 600;
+    font-size: 200px;
+    line-height: 170px;
+    letter-spacing: -2px;
+    margin-bottom: 42px;
+    z-index: 1;
+}
+.preview-text_paragraph{
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    letter-spacing: 0.5px;
+    opacity: 0.5;
+    margin-bottom: 50px;
+}
+.preview_wrap{
+    display: flex;
+}
+.preview-btn_wrap{
+    display: flex;
+    gap: 30px;
+}
+.preview-img_wrap{
+    position: relative;
+    width: 100%;
+}
+// .preview-img{
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     width: 100%;
+//     flex-grow: 1;
+// }
+.preview-img{
+    position: absolute;
+    top: -170px;
+    left: -270px;
+    z-index: 1;
+    width: 750px;
+}
+.preview-img img{
+    width: 100%;
+}
+.inform-block_wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 110px;
+}
+.inform-block{
+    display: flex;
+    flex-direction: column;
+    background: $grey-color;
+    padding: 30px 20px;
+    max-width: 166px;
+    border-radius: 20px;
+}
+.inform-block_time{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+    color: $yellow-color;
+}
+.inform-block_calories{
+    color:$calories-color;
+}
+.inform-block_text{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    letter-spacing: 1px;
+}

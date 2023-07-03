@@ -1,0 +1,51 @@
+$text-color: #FFFFFF;
+$btn-color:#25AB75;
+$btn-primary:#2f2f2f;
+$calories-color:#FB1351;
+$yellow-color:#FFE642;
+$basic-color:#000;
+$grey-color: #191919;
+
+html{
+    scroll-behavior: smooth;
+}
+@mixin textStyle{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: $basic-color;
+    color: $text-color;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+li{
+    list-style: none;
+}
+button{
+    cursor: pointer;
+    background: inherit;
+    color: inherit;
+    border: none;
+}
